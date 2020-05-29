@@ -13,18 +13,41 @@
 <img style="display:inline" width="200" src="https://blog-static.cnblogs.com/files/zzerx/itimepicker3.gif"/>
 
 ## CasualiTimePicker使用
+添加依赖<p>
+ 
+
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+```
+
+	dependencies {
+	        implementation 'com.github.0x7A7A6572:CustomImageView:Tag'
+	}
+```
 布局文件中添加：
 ```xml
         <cn.zzerx.itimepicker.CasualiTimePicker
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 ```
+
+
 部分api
 CasualiTimePicker --|
+
+
 #### setTimeSelectMode 设置显示模式
 #### getPickerParent 获取iTimePicker
 #### setOnValueChangesListener 监听模式改变 
-   iTimePicker --|
+
+
+iTimePicker --|
    #### getTimePicker 获取当前显示的时间
    #### setTimePicker 设置时间
    
