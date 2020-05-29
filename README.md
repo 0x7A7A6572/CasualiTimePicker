@@ -1,4 +1,4 @@
-# CasualiTimePicker
+# CasualiTimePicker v1.0.0
 完全使用NumberPicker实现的时间选择器。<p>
  -- CasualiTimePicker是对 iTimePicker 的封装，CasualiTimePicker增加了模式的切换。<p>
  -- iTimePickers使用了多个NumberPicker组成 ，并管理数据的联动，显示和设置时间。<p>
@@ -28,6 +28,6 @@ CasualiTimePicker --|
    #### getTimePicker 获取当前显示的时间
    #### setTimePicker 设置时间
    
-## 下载Demo
-
    
+## ![下载Demo](https://github.com/0x7A7A6572/CasualiTimePicker/blob/master/app-debug.apk)
+
