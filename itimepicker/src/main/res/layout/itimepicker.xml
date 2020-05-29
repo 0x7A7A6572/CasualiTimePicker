@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+	<cn.zzerx.itimepicker.CNumPicket
+		android:id="@+id/year"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="2dp"
+		android:visibility="visible"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:text="年"
+		android:translationX="-20dp"
+		android:translationY="-15dp"
+		android:visibility="visible"
+		android:id="@+id/year_text"/>
+
+	<cn.zzerx.itimepicker.CNumPicket
+		android:id="@+id/month"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="2dp"
+		android:visibility="visible"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:text="月"
+		android:translationX="-20dp"
+		android:translationY="-15dp"
+		android:visibility="visible"
+		android:id="@+id/month_text"/>
+
+	<cn.zzerx.itimepicker.CNumPicket
+		android:id="@+id/day"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="2dp"
+		android:visibility="visible"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:text="日"
+		android:translationX="-20dp"
+		android:translationY="-15dp"
+		android:visibility="visible"
+		android:id="@+id/day_text"/>
+
+	<cn.zzerx.itimepicker.CNumPicket
+		android:id="@+id/hour"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="2dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:text="时"
+		android:translationX="-20dp"
+		android:translationY="-15dp"
+		android:id="@+id/hour_text"/>
+
+	<cn.zzerx.itimepicker.CNumPicket
+		android:id="@+id/minute"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="2dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:text="分"
+		android:translationX="-20dp"
+		android:translationY="-15dp"
+		android:id="@+id/minute_text"/>
+
+</merge>
+
